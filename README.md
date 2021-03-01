@@ -29,3 +29,4 @@ windows可用，准确率相对较高。
 ### 优化
 - 可以对model/models.py进行逻辑上的调整；
 - 可以搞一些精准度更高的语义模型。
+- 有关于SentencePiece令牌生成器，可以训练更好的SentencePiece模型，具体参照[TORCHTEXT.DATA.FUNCTIONAL](https://pytorch.org/text/stable/data_functional.html)

@@ -28,5 +28,5 @@ windows可用，准确率相对较高。
 尝试过一些github上其他的语音识别项目，如MASR、ASRT等，但由于ctcdecode在windows上的使用非常之麻烦，且使用虚拟机如WSL之类又较为费时，因此体验较差。除此之外，不是每台设备都有强大的GPU，但每台设备都有CPU，因此此项目的适用性非常广泛，但凡你的CPU不是古董，都可以使用此项目进行较为舒爽的语音识别体验，对一些语音识别不是特别严苛的工业项目也可以使用，且项目存在优化空间。<br>
 ### 优化
 - 可以对model/models.py进行逻辑上的调整；
-- 可以搞一些精准度更高的语义模型。
-- 有关于SentencePiece令牌生成器，可以训练更好的SentencePiece模型，具体参照[TORCHTEXT.DATA.FUNCTIONAL](https://pytorch.org/text/stable/data_functional.html)
+- 可以搞一些精准度更高的语义模型；
+- 有关于SentencePiece令牌生成器，可以训练更好的SentencePiece模型，具体参照[TORCHTEXT.DATA.FUNCTIONAL](https://pytorch.org/text/stable/data_functional.html)。

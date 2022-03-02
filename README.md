@@ -1,5 +1,5 @@
 # Chinese_speech_recognition 中文语音识别
-windows可用，准确率相对较高。
+windows可用，准确率较为有限（如果有方言就更有限了）。
 
 ## 环境配置
 推荐使用python venv或conda，本人使用conda
